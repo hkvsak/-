@@ -351,9 +351,17 @@
 			"key": "瓜子影视",
 			"name": "🌻┃瓜子┃影视",
 			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/瓜子影视.js"
-		},
+			"api": ".csp_GuaziAmns",
+		    "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0605/19/bc5db805aa5b4b96b4882ac290fd77f5.png;md5;71DB9888B04FA21B49768A8E25503DF4",
+            "ext": {
+                "sites": "",
+                "filters": "./json/guazi.json"
+            }
+        },
 		{
 			"key": "金牌影院",
 			"name": "🏅┃金牌┃影院",
@@ -550,7 +558,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": {
-				"site": "http://feimaoai.site,https://feimao666.fun,http://feimao888.fun"
+				"site": "https://www.labi88.sbs,http://feimaoai.site,https://feimao666.fun,http://feimao888.fun"
 			}
 		}, {
 			"key": "ZXZJ",
