@@ -85,14 +85,6 @@
 				"type": "rect",
 				"ratio": 1.597
 			}
-		}, {
-			"key": "弹幕",
-			"name": "⚙️┃弹幕┃配置",
-			"type": 3,
-			"api": "csp_Huban",
-			"jar": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/jar/HubanTCR.jar",
-			"searchable": 0,
-			"changeable": 0
 		},
 		{
 			"key": "天天",
