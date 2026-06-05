@@ -392,18 +392,7 @@
 				"类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
 				"分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
 			}
-		}, {
-			"key": "悟空",
-			"name": "🐵┃悟空┃影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "https://ncstatic.clewm.net/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png;md5;4D860D06EC233DBCB891B76055F099D5",
-			"ext": "./json/wukong.json"
-		}, {
+		},{
 			"key": "xiaozhen",
 			"name": "🏕️┃小镇┃视频",
 			"type": 3,
@@ -493,12 +482,7 @@
 				"分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 				"分类": "国产剧$13#电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
 			}
-		}, {
-			"key": "独播库",
-			"name": "🍄┃独播┃影视",
-			"type": 3,
-			"api": "https://asxav.tprssz.com/image/2026-04-09/8/2042044022836473856#dbokutv.js"
-		}, {
+		},{
 			"key": "星芽短剧",
 			"name": "🌟┃星芽┃短剧",
 			"type": 3,
@@ -510,16 +494,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0
-		}, {
-			"key": "南风短剧",
-			"name": "☢️┃南风┃短剧",
-			"type": 3,
-			"api": "csp_Nfdj",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"timeout": 10
-		}, {
+		},{
 			"key": "聚合短剧",
 			"name": "✨┃聚合┃短剧",
 			"type": 3,
