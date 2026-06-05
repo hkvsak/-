@@ -351,7 +351,7 @@
 			"key": "瓜子影视",
 			"name": "🌻┃瓜子┃影视",
 			"type": 3,
-			"api": ".csp_GuaziAmns",
+			"api": "csp_GuaziAmns",
 		    "searchable": 1,
             "filterable": 1,
             "quickSearch": 1,
