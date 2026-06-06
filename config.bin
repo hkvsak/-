@@ -75,6 +75,20 @@
 			"ext": "./json/douban.json"
 		},
 		{
+			"name": "LEO弹幕",
+			"key": "⚙️┃弹幕┃配置",
+			"type": 3,
+			"api": "csp_DanmakuSpider",
+			"searchable": 1,
+			"jar": "https://wp.kayyw.com/f/nnA9HX/danmu.jar",
+			"ext": {
+				"apiUrl": "https://logo.saodu.work:8888/87654321",
+				"autoPushEnabled": true,
+				"danmakuStyle": "经典模式",
+				"lpAlpha": 0.9
+			}
+		},
+		{
 			"key": "网盘配置",
 			"name": "🍭┃配置┃中心",
 			"type": 3,
@@ -246,12 +260,12 @@
 			"changeable": 1,
 			"playable": 1
 		},
-        {
-            "key": "Acfun",
-            "name": "😀┃A站┃平台",
-            "type": 3,
-            "api": "https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py"
-        },		
+		{
+			"key": "Acfun",
+			"name": "😀┃A站┃平台",
+			"type": 3,
+			"api": "https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py"
+		},
 		{
 			"key": "哔哩弹幕",
 			"name": "🅱️┃哔哩┃影视",
@@ -348,20 +362,19 @@
 			"quickSearch": 1,
 			"filterable": 1
 		}, {
-			"key": "瓜子影视",
-			"name": "🌻┃瓜子┃影视",
+			"key": "csp_GuaZi",
+			"name": "🍉┃瓜子┃影视",
 			"type": 3,
 			"api": "csp_GuaziAmns",
-		    "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-			"jar": "https://ncstatic.clewm.net/rsrc/2026/0605/19/bc5db805aa5b4b96b4882ac290fd77f5.png;md5;71DB9888B04FA21B49768A8E25503DF4",
-            "ext": {
-                "sites": "",
-                "filters": "./json/guazi.json"
-            }
-        },
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"ext": {
+				"sites": "",
+				"filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+			},
+			"jar": "https://wp.kayyw.com/f/QeZxIA/custom_spider.jar"
+		},
 		{
 			"key": "金牌影院",
 			"name": "🏅┃金牌┃影院",
@@ -406,7 +419,7 @@
 				"类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
 				"分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
 			}
-		},{
+		}, {
 			"key": "xiaozhen",
 			"name": "🏕️┃小镇┃视频",
 			"type": 3,
@@ -451,7 +464,7 @@
 				"分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
 				"分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$30"
 			}
-		},{
+		}, {
 			"key": "水滴视频",
 			"name": "💧┃水滴┃视频",
 			"type": 3,
@@ -466,7 +479,7 @@
 				"分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 				"分类": "国产剧$13#电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
 			}
-		},{
+		}, {
 			"key": "星芽短剧",
 			"name": "🌟┃星芽┃短剧",
 			"type": 3,
@@ -478,7 +491,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0
-		},{
+		}, {
 			"key": "聚合短剧",
 			"name": "✨┃聚合┃短剧",
 			"type": 3,
