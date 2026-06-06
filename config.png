@@ -80,7 +80,7 @@
 			"type": 3,
 			"api": "csp_DanmakuSpider",
 			"searchable": 1,
-			"jar": "https://wp.kayyw.com/f/nnA9HX/danmu.jar",
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0606/11/213bbb9695e34a42a8fb0d2deff41a89.png;md5;38F2621478442352EC0417E3D660B8D8",
 			"ext": {
 				"apiUrl": ["https://logo.saodu.work:8888/87654321|公益源1",
 					"https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源2",
@@ -376,7 +376,7 @@
 				"sites": "",
 				"filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
 			},
-			"jar": "https://wp.kayyw.com/f/QeZxIA/custom_spider.jar"
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0606/11/e73824ddbe2d4f28b3e3ccc699d0f064.png;md5;8C8DA63F7C5D8628D0B40FD03632C3B4"
 		},
 		{
 			"key": "金牌影院",
