@@ -362,18 +362,13 @@
 			"quickSearch": 1,
 			"filterable": 1
 		}, {
-			"key": "csp_GuaZi",
+			"key": "csp_Guazi",
 			"name": "🍉┃瓜子┃影视",
 			"type": 3,
-			"api": "csp_GuaziAmns",
+			"api": "csp_Guazi",
 			"searchable": 1,
-			"filterable": 1,
-			"quickSearch": 1,
-			"ext": {
-				"sites": "",
-				"filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-			},
-			"jar": "https://ncstatic.clewm.net/rsrc/2026/0606/11/e73824ddbe2d4f28b3e3ccc699d0f064.png;md5;8C8DA63F7C5D8628D0B40FD03632C3B4"
+			"changeable": 1,
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0622/18/bb6ee1729c28414496add334ea3ea00a.png;md5;2C09761B17B36A3C58291EB6436C3542"
 		},
 		{
 			"key": "金牌影院",
@@ -759,25 +754,29 @@
 			"changeable": 0
 		},
 		{
+			"key": "csp_GuaziSport",
 			"name": "🏆┃瓜子┃体育",
-			"key": "GuaziLive",
 			"type": 3,
-			"api": "csp_GuaziLiveAmns",
-			"searchable": 0,
-			"quickSearch": 0,
+			"api": "csp_GuaziSport",
+			"searchable": 1,
 			"changeable": 0,
-			"ext": "https://api.bmjb2mk7.com,https://api.46d5umpk.com,https://api.tkfupxqu.com,https://api.5h5hbfhh.com,https://api.qchyzkww.com,https://api.cjxxpgkq.com,https://api.zejzeu7p.com",
-			"jar": "https://jihulab.com/yoursmile3/TVBox/-/raw/main/custom_spider.jar"
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0622/18/bb6ee1729c28414496add334ea3ea00a.png;md5;2C09761B17B36A3C58291EB6436C3542"
 		},
 		{
-			"name": "🏆┃飞球┃体育",
-			"key": "FeiqLive",
+			"key": "csp_JuheSport",
+			"name": "🏆┃聚合┃体育",
 			"type": 3,
-			"api": "csp_FeiqLiveAmns",
-			"searchable": 0,
-			"quickSearch": 0,
+			"api": "csp_JuheSport",
+			"searchable": 1,
 			"changeable": 0,
-			"jar": "https://jihulab.com/yoursmile3/TVBox/-/raw/main/custom_spider.jar"
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0622/18/bb6ee1729c28414496add334ea3ea00a.png;md5;2C09761B17B36A3C58291EB6436C3542"
+		}, {
+			"key": "酷克PHP",
+			"name": "⚽┃酷克┃体育",
+			"type": 4,
+			"api": "http://jiduo.3116598.xyz/PHP/pkty.php",
+			"searchable": 0,
+			"changeable": 1
 		},
 		{
 			"key": "88js",
